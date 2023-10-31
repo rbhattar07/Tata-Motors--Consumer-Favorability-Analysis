@@ -16,3 +16,5 @@ Null values:
 - reddit social echo (818) - Entirely By Twitter
 - engagement 
 - state
+#
+Before cleaning the data, I tried to extract the missing headlines & opening text from twitter through the links provided using TWEEPY but I wasnt able to do so because those posts were SUSPENDED. I wanted to extract these few details to ensure that I avoid any data loss & so that I can perform a deeper analysis and validate things.
