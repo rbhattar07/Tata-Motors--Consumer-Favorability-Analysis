@@ -19,4 +19,7 @@ Null values:
 #
 Before cleaning the data, I tried to extract the missing headlines & opening text from twitter through the links provided using TWEEPY but I wasnt able to do so because those posts were SUSPENDED. I wanted to extract these few details to ensure that I avoid any data loss & so that I can perform a deeper analysis and validate things.
 #
-Out of 1528 observations in the dataset:
+There is only one value type in the country column - India
+Removed column Subregion because of large amount of missing values.
+# 
+Out of 1528 observations: tata (984), hyundai(477), tata & hyundai (67)
