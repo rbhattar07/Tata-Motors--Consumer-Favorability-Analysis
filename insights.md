@@ -23,3 +23,9 @@ There is only one value type in the country column - India
 Removed column Subregion because of large amount of missing values.
 # 
 Out of 1528 observations: tata (984), hyundai(477), tata & hyundai (67)
+#
+Mean Sentiment (0.1099): The mean sentiment score is slightly positive (0.1099). This suggests that, on average, the news articles in the dataset tend to express a slightly positive sentiment regarding Tata Motors, Hyundai and the auto industry.
+Median Sentiment (0.0): The median sentiment score is 0.0, which means that half of the articles in the dataset have sentiment scores greater than 0.0, and the other half have scores lower than 0.0. NEUTRAL
+Standard Deviation of Sentiment (0.6567): The standard deviation measures the degree of variation or dispersion in the sentiment scores. In our case, a standard deviation of 0.6567 suggests that the sentiment scores vary moderately. There is some diversity in how sentiment is expressed in the news articles, ranging from more negative to more positive.
+
+
