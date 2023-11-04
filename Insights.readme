@@ -1,218 +1,222 @@
-THESE INSIGHTS WERE GAINED FROM TWITTER DATA:
-**SOME INSIGHTS ABOUT TATA:**
-
-1. **Average Sentiment Score for Tata Cars**: The average sentiment score for Tata cars is -0.08, indicating a slightly negative sentiment. 
-This suggests that, on average, consumer sentiment towards Tata cars in the dataset tends to be slightly on the negative side.
-
-2. **Average Reach for Tata Cars**: The average reach for Tata cars-related tweets/posts is approximately 2,317.23. 
-This means that, on average, the information related to Tata cars is reaching a moderate-sized audience.
-
-3. **Sentiment Category Counts**:
-   - **Neutral Sentiment**: The largest sentiment category is "Neutral" with 434 mentions. This suggests that a significant portion of 
-   the discussions related to Tata cars neither expresses strongly positive nor negative sentiment. It could imply that people are sharing 
-   general information or news about Tata cars.
-   - **Negative Sentiment**: The "Negative" sentiment category with 119 mentions is next in count. This indicates that there are a 
-   notable number of negative sentiments expressed in the dataset, potentially highlighting areas of concern or dissatisfaction.
-   - **Positive Sentiment**: The "Positive" sentiment category has the lowest count with 68 mentions. This suggests that while 
-   there are positive sentiments, they are less prevalent in the dataset.
-
-4. **Attributes Analysis**:
-   - **Accessories**: The sentiment score for the "Accessories" attribute is -0.17, indicating a slightly negative sentiment. 
-   The reach is 1,676, suggesting this topic has a more limited audience.
-   - **Cost**: The sentiment score for the "Cost" attribute is -0.09, indicating a slightly negative sentiment. However, 
-   it has a relatively higher reach of 17,763, meaning discussions about the cost of Tata cars are reaching a larger audience.
-   - **EV (Electric Vehicle)**: The "EV" attribute has a sentiment score of -0.21, signifying a more negative sentiment. 
-   It has a significantly higher reach of 598,451, implying that discussions related to Tata's electric vehicles are capturing 
-   substantial attention.
-   - **Other**: The "Other" category has a relatively neutral sentiment score (-0.03) and a high reach of 812,341, indicating 
-   a broad and diverse set of discussions not categorized into specific attributes.
-   - **Performance**: The "Performance" attribute has a sentiment score of -1.0, indicating very negative sentiment, 
-   but it has a limited reach of 39, suggesting it might be a niche topic of discussion.
-   - **Safety**: The "Safety" attribute has a sentiment score of -0.16, indicating a slightly negative sentiment. 
-   It has a reach of 8,731, signifying that discussions related to Tata cars' safety are reaching a moderate-sized audience.
+# Find out Tata Motors’ favorability for the consumer segment:
+
+1. Average Sentiment Score: The average sentiment score for Tata cars is 0.10. A sentiment score of 0.10 suggests that the overall sentiment is slightly positive, as it is greater than zero.
 
-**SOME INSIGHTS ABOUT HYUNDAI:**
+2. Sentiment Category Percentages:
+   - Neutral: 63.88%
+   - Positive: 23.16%
+   - Negative: 12.96%
 
-1. **Average Sentiment Score for Hyundai Cars**: The average sentiment score for Hyundai cars is -0.21, indicating a slightly 
-more negative sentiment compared to Tata. This suggests that consumers may have more critical feedback for Hyundai.
+These percentages indicate the distribution of sentiments among consumers, in this case:
+   - A significant percentage (63.88%) falls under the "Neutral" category, which suggests that a large portion of consumers may have a neutral or mixed sentiment towards Tata cars.
+   - A positive sentiment is expressed by 23.16% of consumers.
+   - A negative sentiment is expressed by 12.96% of consumers.
 
-2. **Average Reach for Hyundai Cars**: The average reach for Hyundai cars is approximately 83,899.29, which is significantly
- higher than Tata's reach. This implies that there is more conversation and engagement surrounding Hyundai cars.
+   ## Twitter Data
+        1. Average Sentiment Score: The average sentiment score for Tata cars on Twitter is -0.08. A sentiment score of -0.08 suggests that the overall sentiment is slightly negative, as it is less than zero.
 
-3. **Sentiment Category Counts for Hyundai**:
-   - **Neutral Sentiment**: The largest sentiment category for Hyundai is "Neutral," with 75 mentions. This suggests that a 
-   significant portion of the discussions related to Hyundai cars neither expresses strongly positive nor negative sentiment.
-   - **Negative Sentiment**: The "Negative" sentiment category is next in count, with 64 mentions. This indicates that there is a 
-   notable amount of negative sentiment expressed in the dataset, highlighting areas of concern or dissatisfaction.
-   - **Positive Sentiment**: The "Positive" sentiment category has the lowest count for Hyundai, with 29 mentions, indicating 
-   that positive sentiments are less prevalent in the dataset.
+        2. Sentiment Category Percentages:
+        - Neutral: 69.89%
+        - Negative: 19.16%
+        - Positive: 10.95%
 
-4. **Attributes Analysis for Hyundai**:
-   - **Accessories**: The sentiment score for the "Accessories" attribute is 0.0, suggesting a neutral sentiment. The reach for this 
-   attribute is 1,184, indicating discussions about Hyundai's accessories have a more limited audience.
-   - **Cost**: The sentiment score for the "Cost" attribute is 0.0, indicating a neutral sentiment. However, it has a reach of 6,128, 
-   meaning discussions about the cost of Hyundai cars are reaching a considerable audience.
-   - **EV (Electric Vehicle)**: The "EV" attribute has a sentiment score of -0.14, signifying a slightly negative sentiment. 
-   It has a reach of 87,363, capturing a significant amount of attention.
-   - **Other**: The "Other" category has a sentiment score of -0.24 and a high reach of 13,969,460, suggesting diverse discussions not 
-   categorized into specific attributes but with a slightly negative sentiment.
-   - **Performance**: The "Performance" attribute has a sentiment score of -1.0, indicating very negative sentiment, and a 
-   limited reach of 908, signifying a niche topic of discussion.
-   - **Safety**: The "Safety" attribute has a sentiment score of -0.33, indicating a more negative sentiment compared to Tata. 
-   It has a reach of 26,623, suggesting discussions related to safety reach a moderate-sized audience.
+   ## Non Twitter Data
+        1. Average Sentiment Score: The average sentiment score for Tata cars is 0.42. A sentiment score of 0.42 suggests that the overall sentiment is positive, as it is greater than zero.
 
-**Comparison and Insights:**
-- Hyundai exhibits a slightly more negative sentiment and higher reach compared to Tata. This indicates that while Hyundai 
-has broader engagement, it may also face more critical feedback.
-- Both brands have a significant "Neutral" sentiment category, implying the need for more detailed consumer feedback analysis.
-- The "EV" attribute garners significant reach for both brands, but Tata has a slightly more polarized conversation with negative sentiment.
-- "Cost" is perceived neutrally for both brands, with Tata having a slightly more negative sentiment. B
-oth brands should focus on competitive pricing.
-- "Accessories" have a neutral sentiment for Hyundai but a slightly negative.
+        2. Sentiment Category Percentages:
+        - Neutral: 53.48%
+        - Positive: 44.29%
+        - Negative: 2.23%
 
+# Arrive at parameters which ascertain how consumers look at Tata Cars given the innovations happening in the auto space in Safety, Fuel efficiency, accessories, ICE vs. Electric:
 
-THESE INSIGHTS WERE GAINED FROM the remaining (Non Twitter) DATA:
-**Tata Insights:**
-- **Average Sentiment Score for Tata Cars**: Tata cars have an average sentiment score of 0.42, indicating a positive sentiment overall. Consumers are generally positive about Tata cars.
+    The attribute analysis provides insights into the sentiment scores and reach for different attributes associated with Tata Motors. Here's a breakdown of the attributes:
 
-- **Average Reach for Tata Cars**: Tata cars-related discussions have an average reach of approximately 5,946,106.66. This suggests that information about Tata cars is reaching a vast audience.
+    1. **Accessories**:
+    - Sentiment Score: 0.368421 (Positive sentiment)
+    - Reach: 74,233,380
 
-- **Sentiment Category Counts for Tata**:
-  - **Neutral Sentiment**: The largest sentiment category is "Neutral" with 192 mentions. A significant portion of the discussions expresses neither strong positive nor negative sentiment.
-  - **Positive Sentiment**: There are 159 mentions in the "Positive" sentiment category, indicating that consumers have positive sentiments about Tata cars.
-  - **Negative Sentiment**: There are 8 mentions in the "Negative" sentiment category, representing a small portion of negative sentiments.
+    2. **Cost**:
+    - Sentiment Score: 0.472222 (Positive sentiment)
+    - Reach: 248,589,000
 
-- **Attributes Analysis for Tata**:
-  - **Accessories**: The "Accessories" attribute has a sentiment score of 0.615385, indicating a positive sentiment. The reach is significant, with a reach of 74,231,700.
+    3. **EV (Electric Vehicle)**:
+    - Sentiment Score: -0.019380 (Slightly negative sentiment)
+    - Reach: 660,227,400
 
-  - **Cost**: The "Cost" attribute has a sentiment score of 0.72, indicating a highly positive sentiment. It also has a substantial reach, suggesting discussions about the cost of Tata cars reach a broad audience.
+    4. **Fuel Efficiency**:
+    - Sentiment Score: 0.666667 (Highly positive sentiment)
+    - Reach: 12,659,160
 
-  - **EV (Electric Vehicle)**: The "EV" attribute has a sentiment score of 0.282828, suggesting a moderately positive sentiment. It has a high reach of 659,629,000.
+    5. **Other**:
+    - Sentiment Score: 0.125796 (Positive sentiment)
+    - Reach: 1,132,056,000
 
-  - **Fuel Efficiency**: The "Fuel Efficiency" attribute has a sentiment score of 0.666667, indicating a highly positive sentiment. The reach for this attribute is also substantial.
+    6. **Performance**:
+    - Sentiment Score: -0.500000 (Negative sentiment)
+    - Reach: 27,064
 
-  - **Other**: The "Other" category has a sentiment score of 0.430622, indicating a positive sentiment. It has the highest reach, with discussions reaching 1,131,244,000 people.
+    7. **Safety**:
+    - Sentiment Score: -0.032258 (Slightly negative sentiment)
+    - Reach: 8,298,788
 
-  - **Performance**: The "Performance" attribute has a sentiment score of 0, implying a neutral sentiment. The reach is relatively low, indicating that it may not be a highly discussed topic.
+    These scores and reach metrics provide valuable insights into how consumers perceive different attributes of Tata Motors. 
+    For example, "Cost," "Fuel Efficiency," and "Accessories" have positive sentiment scores and substantial reach, indicating that consumers have a positive perception and are discussing these attributes widely. On the other hand, "Performance" and "Safety" have negative sentiment scores, suggesting that specific concerns or issues exist in these areas, but they have a relatively lower reach.
 
-  - **Safety**: The "Safety" attribute has a sentiment score of 0.5, indicating a positive sentiment. It has a reach of 8,290,057, indicating that discussions related to Tata cars' safety reach a significant audience.
+    The "EV" attribute has a slightly negative sentiment score, which implies there may be concerns related to electric vehicles. However, it has a significant reach, indicating that discussions related to electric vehicles are extensive.
 
-**Hyundai Insights:**
-- **Average Sentiment Score for Hyundai Cars**: Hyundai cars have an average sentiment score of 0.26, indicating a slightly positive sentiment overall. Consumers are generally positive about Hyundai cars, but the sentiment is not as strong as for Tata.
+    These insights can guide Tata Motors in addressing specific concerns and leveraging the positive sentiment associated with various attributes to enhance its brand image and product offerings.
 
-- **Average Reach for Hyundai Cars**: Hyundai cars-related discussions have an average reach of approximately 5,640,402.25. This indicates that information about Hyundai cars is reaching a substantial audience, similar to Tata.
+        (Twitter data): 
+            - **Accessories**: The sentiment score for the "Accessories" attribute is -0.17, indicating a slightly negative sentiment. 
+                The reach is 1,676, suggesting this topic has a more limited audience.
+            - **Cost**: The sentiment score for the "Cost" attribute is -0.09, indicating a slightly negative sentiment. However, 
+                it has a relatively higher reach of 17,763, meaning discussions about the cost of Tata cars are reaching a larger audience.
+            - **EV (Electric Vehicle)**: The "EV" attribute has a sentiment score of -0.21, signifying a more negative sentiment. 
+                It has a significantly higher reach of 598,451, implying that discussions related to Tata's electric vehicles are capturing 
+                substantial attention.
+            - **Other**: The "Other" category has a relatively neutral sentiment score (-0.03) and a high reach of 812,341, indicating 
+                a broad and diverse set of discussions not categorized into specific attributes.
+            - **Performance**: The "Performance" attribute has a sentiment score of -1.0, indicating very negative sentiment, 
+                but it has a limited reach of 39, suggesting it might be a niche topic of discussion.
+            - **Safety**: The "Safety" attribute has a sentiment score of -0.16, indicating a slightly negative sentiment. 
+                It has a reach of 8,731, signifying that discussions related to Tata cars' safety are reaching a moderate-sized audience.
 
-- **Sentiment Category Counts for Hyundai**:
-  - **Positive Sentiment**: The largest sentiment category is "Positive," with 143 mentions. This suggests that a significant portion of the discussions expresses positive sentiment.
+        (Non Twitter Data):
+            - **Accessories**: The "Accessories" attribute has a sentiment score of 0.615385, indicating a positive sentiment. The reach is       significant, with a reach of 74,231,700.
+            - **Cost**: The "Cost" attribute has a sentiment score of 0.72, indicating a highly positive sentiment. It also has a substantial reach, suggesting discussions about the cost of Tata cars reach a broad audience.
+            - **EV (Electric Vehicle)**: The "EV" attribute has a sentiment score of 0.282828, suggesting a moderately positive sentiment. It has a high reach of 659,629,000.
+            - **Fuel Efficiency**: The "Fuel Efficiency" attribute has a sentiment score of 0.666667, indicating a highly positive sentiment. The reach for this attribute is also substantial.
+            - **Other**: The "Other" category has a sentiment score of 0.430622, indicating a positive sentiment. It has the highest reach, with discussions reaching 1,131,244,000 people.
+            - **Performance**: The "Performance" attribute has a sentiment score of 0, implying a neutral sentiment. The reach is relatively low, indicating that it may not be a highly discussed topic.
+            - **Safety**: The "Safety" attribute has a sentiment score of 0.5, indicating a positive sentiment. It has a reach of 8,290,057, indicating that discussions related to Tata cars' safety reach a significant audience.
 
-  - **Neutral Sentiment**: "Neutral" is the second-largest sentiment category, with 121 mentions. This indicates that many discussions neither express strong positive nor negative sentiment.
+# What are consumers looking at from the auto space:
+    Consumer expectations in the auto space are evolving with changing technology and societal trends. Understanding and meeting these expectations are critical for automakers to maintain favorability among consumers. The key areas of consumer expectations in the auto space include:
 
-  - **Negative Sentiment**: The "Negative" sentiment category has 58 mentions, representing a portion of negative sentiments.
+        1. **Advanced Safety Features:** Consumers expect their vehicles to incorporate advanced safety features to protect both the driver and pedestrians. This includes technologies like adaptive cruise control, lane-keeping assist, automatic emergency braking, and pedestrian detection. Automakers should prioritize safety innovation and ensure these features are widely available in their vehicles.
 
-- **Attributes Analysis for Hyundai**:
-  - **Accessories**: The "Accessories" attribute has a sentiment score of 0.75, indicating a highly positive sentiment. The reach is significant, with discussions reaching an audience of 25,327,440.
+        2. **Fuel Efficiency:** With environmental concerns and rising fuel costs, fuel efficiency remains a top priority for consumers. Whether through traditional internal combustion engines or electric vehicles (EVs), consumers seek vehicles with good miles per gallon (MPG) or equivalent electric range (EER) in the case of EVs. Automakers should invest in improving fuel efficiency and promoting EV adoption.
 
-  - **Cost**: The "Cost" attribute has a sentiment score of 1.0, indicating highly positive sentiment. The reach for this attribute is substantial, suggesting discussions about the cost of Hyundai cars reach a broad audience.
+        3. **Connectivity and Technology:** Modern consumers are tech-savvy and expect their vehicles to be equipped with advanced infotainment systems, smartphone integration, and telematics. The seamless integration of smartphones, access to apps, and smart features enhance the driving experience. Automakers need to stay up-to-date with the latest technology trends and offer connectivity options.
 
-  - **EV (Electric Vehicle)**: The "EV" attribute has a sentiment score of 0.127660, indicating a moderately positive sentiment. It has a high reach of 316,739,900.
+        4. **Sustainability:** As environmental awareness grows, an increasing number of consumers prioritize eco-friendly vehicles. Automakers should invest in electric and hybrid options and ensure their production and manufacturing processes align with sustainability trends. Promoting sustainability in both the vehicle's operation and production can boost favorability.
 
-  - **Fuel Efficiency**: The "Fuel Efficiency" attribute has a sentiment score of 1.0, indicating highly positive sentiment. The reach for this attribute is substantial.
+        5. **Affordability:** Competitive pricing and cost of ownership are crucial for consumers. They look for value for money in terms of the purchase price, fuel costs, maintenance, and resale value. Automakers should focus on offering affordable and cost-effective options that align with consumer budgets.
 
-  - **Other**: The "Other" category has a sentiment score of 0.219828, indicating a moderately positive sentiment. It has the highest reach, with discussions reaching an audience of 1,177,095,000.
+    In summary, understanding and meeting these consumer expectations in the auto space are key to maintaining and improving favorability. Automakers need to adapt to changing consumer preferences, technology advancements, and sustainability concerns to remain competitive in the market.
 
-  - **Performance**: The "Performance" attribute has a sentiment score of 0.666667, indicating moderately positive sentiment. The reach is substantial but not as high as for other attributes.
+# What are is their competition offering?
+    Positives related to Hyundai cars:
 
-  - **Safety**: The "Safety" attribute has a sentiment score of 0,
+        1. **Reliability**: Hyundai cars are known for their reliability and often perform well in reliability surveys, which instills confidence in consumers regarding the brand's dependability.
 
- implying a neutral sentiment. The reach is relatively high, suggesting that safety discussions reach a substantial audience.
-
-**Comparison and Insights:**
-- Both Tata and Hyundai have positive average sentiment scores, with Tata having a slightly stronger positive sentiment.
-
-- The most prominent sentiment category for both brands is "Neutral," suggesting that a significant portion of discussions neither express strong positive nor negative sentiment. Consumer discussions are diverse.
-
-- Attributes such as "Accessories," "Cost," and "Other" receive highly positive sentiment scores for both brands, indicating that these attributes are important to consumers.
-
-- The sentiment for "EV (Electric Vehicle)" is moderately positive for both brands, but Tata has a more positive sentiment in this category. Consumers are interested in electric vehicles from both brands.
-
-- "Fuel Efficiency" and "Performance" attributes also receive highly positive sentiment, indicating that consumers value these aspects in cars.
-
-- Safety, while important, doesn't receive strong sentiment in discussions for both brands. There's room for improvement in addressing safety concerns and promoting safety features.
-
-- Both brands have a substantial reach, but discussions about Hyundai cars slightly outnumber those about Tata cars.
-
-**Consumer Perspective and Solutions:**
-- Consumers are looking for innovation and favor attributes like cost, fuel efficiency, accessories, and electric vehicles. Both brands should continue to focus on these areas and promote their strengths.
-
-- Both Tata and Hyundai are in competition, with Hyundai having a slightly more positive sentiment and reach. Tata should enhance its presence and consumer engagement to compete effectively.
-
-- Favorability for Tata Motors is generally positive. To strengthen this position further, Tata should focus on innovation, safety features, and addressing specific attribute concerns.
-
-- Addressing safety concerns and promoting safety features is essential for both brands to enhance consumer favorability.
-
-- Continue to innovate and communicate the value of electric vehicles, fuel efficiency, and cost-effective offerings to cater to consumer preferences.
-
-- Analyze consumer feedback regularly and adapt to changing consumer needs and preferences.
-
------------------------------
-Positives related to Hyundai cars:
-
-1. Reliability: Many Hyundai models are known for their reliability, and they often rank well in reliability surveys.
-
-2. Features: Hyundai cars often come equipped with a range of features, including advanced technology, safety features, and infotainment systems.
-
-3. Value for Money: Hyundai vehicles typically offer good value for the price, with a combination of features and performance.
-
-4. Fuel Efficiency: Hyundai has produced a range of fuel-efficient cars, particularly in their line of compact and subcompact vehicles.
-
-5. Warranty: Hyundai is known for its generous warranty coverage, offering long-term protection for buyers.
-
-6. Stylish Design: Hyundai cars are often praised for their modern and stylish designs.
-
-Negatives related to Hyundai cars:
-
-1. Resale Value: Hyundai vehicles tend to have lower resale values compared to some other brands.
-
-2. Depreciation: While Hyundai cars can be affordable when new, they often depreciate more quickly than vehicles from other manufacturers.
-
-3. Ride Quality: Some Hyundai models may have ride quality that is less comfortable compared to competitors.
-
-4. Noise Levels: Some Hyundai cars can have higher road and wind noise levels at higher speeds.
-
-5. Interior Quality: In certain models, the interior quality may not match that of some competitors, especially in the entry-level segments.
-
-6. Limited Performance Models: While Hyundai has made strides in performance-oriented vehicles, some car enthusiasts might find the lineup lacking in high-performance options.
-
-It's important to note that these positives and negatives can vary depending on the specific Hyundai model
------------------------------
-
-# Comparision portrayed in the posts of Hyundai with TATA
-
-1. **Model-Specific Comparisons:** The posts briefly mention specific car models from both Hyundai and Tata, such as the Hyundai Creta and Tata Nexon. While some users express dissatisfaction with the Hyundai Creta, it's in the context of an individual's experience. The posts don't provide an overall comparison of these models.
-
-2. **Quality and Reliability:** Several posts praise Tata cars for their "metal quality" and mention that Tata Nexon's sunroof service is of "best quality." On the other hand, there are negative comments about Hyundai cars, particularly related to roof leakage in the monsoon season. This suggests that some individuals perceive Tata cars to have better quality and reliability compared to Hyundai cars in certain aspects.
-
-3. **Safety and Crash Test:** There's a mention that Tata cars have scored well in global safety tests, specifically referring to Tata Motors and Mahindra cars. This implies that Tata cars are perceived to excel in safety features.
-
-4. **Market Presence:** Hyundai and Tata are mentioned in the context of being active players in the Indian automobile market. Both companies are recognized for their presence and offerings.
-
-5. **Comparison Request:** In one post, a user inquires about a comparison between Hyundai i20 and Hyundai Motors cars. While not a direct comparison with Tata, this indicates that users are seeking comparisons among Hyundai models.
-
-6. **Indian Auto Market:** Hyundai and Tata are both noted as prominent players in the Indian automobile market, indicating their significance in the industry.
-
------------------------------------
-
-**Consumer Expectations in the Auto Space:**
-
-Understanding consumer expectations in the auto space can provide valuable insights:
-
-1. **Advanced Safety Features:** Consumers expect advanced safety features, including adaptive cruise control, lane-keeping assist, automatic emergency braking, and pedestrian detection. Meeting or exceeding these expectations is essential.
-
-2. **Fuel Efficiency:** Fuel efficiency remains a top priority, especially with rising fuel costs and environmental concerns. Consumers look for vehicles with good miles per gallon (MPG) or equivalent electric range (EER) in the case of EVs.
-
-3. **Connectivity and Technology:** Modern consumers seek vehicles with advanced infotainment systems, smartphone integration, and telematics. Compatibility with the latest technology trends enhances favorability.
-
-4. **Sustainability:** An increasing number of consumers prioritize eco-friendly vehicles. Offering electric and hybrid options aligned with sustainability trends can boost favorability.
-
-5. **Affordability:** Competitive pricing and cost of ownership are essential. Consumers look for value for money in terms of purchase price, fuel costs, maintenance, and resale value.
-
+        2. **Features**: Hyundai vehicles are equipped with a wide range of features, including advanced technology, safety features, and infotainment systems. This enhances the overall driving experience and convenience for consumers.
+
+        3. **Value for Money**: Hyundai cars offer good value for the price, providing a combination of features and performance that aligns with consumer expectations and budget considerations.
+
+        4. **Fuel Efficiency**: Hyundai has a strong presence in producing fuel-efficient cars, particularly in the compact and subcompact segments, which helps consumers save on fuel costs.
+
+        5. **Warranty**: Hyundai's generous warranty coverage is a significant positive aspect, providing long-term protection for buyers and boosting their confidence in the brand.
+
+        6. **Stylish Design**: Hyundai cars are often commended for their modern and stylish designs, attracting consumers who appreciate aesthetics and contemporary vehicle design.
+
+    Negatives related to Hyundai cars:
+
+        1. **Resale Value**: Hyundai vehicles tend to have lower resale values compared to some other brands, potentially leading to higher depreciation for owners.
+
+        2. **Depreciation**: While affordable when new, Hyundai cars often depreciate more quickly than vehicles from other manufacturers, which can affect the long-term value of the vehicle.
+
+        3. **Ride Quality**: Some Hyundai models may have ride quality that is less comfortable compared to competitors, which could impact the overall driving experience.
+
+        4. **Noise Levels**: Certain Hyundai cars may experience higher levels of road and wind noise at higher speeds, potentially affecting cabin comfort and quietness.
+
+        5. **Interior Quality**: In certain models, the interior quality may not match that of some competitors, particularly in the entry-level segments, which could impact perceived value and comfort.
+
+        6. **Limited Performance Models**: While Hyundai has made progress in offering performance-oriented vehicles, the lineup may still lack high-performance options, potentially missing out on enthusiasts seeking powerful and sporty models.
+
+        These positives and negatives provide a well-rounded view of Hyundai's strengths and areas for improvement, helping consumers make informed decisions when considering Hyundai vehicles. It also gives Hyundai valuable insights for product development and marketing strategies.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+# FACTS & FIGURES
+**Tata Motors:**
+
+**Average Sentiment Score:**
+- Twitter Data: -0.08 (Slightly negative)
+- Non-Twitter Data: 0.42 (Positive)
+- Combined: Tata Motors generally has a positive sentiment, but Twitter data suggests a slightly negative sentiment, while non-Twitter data shows a positive sentiment.
+
+**Average Reach:**
+- Twitter Data: 2,317.23 (Moderate-sized audience)
+- Non-Twitter Data: 5,946,106.66 (Vast audience)
+- Combined: Tata Motors has a broad reach, with both Twitter and non-Twitter data indicating substantial audience engagement.
+
+**Sentiment Category Counts:**
+- Twitter Data: 
+  - Neutral: 434 mentions
+  - Negative: 119 mentions
+  - Positive: 68 mentions
+- Non-Twitter Data: 
+  - Neutral: 192 mentions
+  - Positive: 159 mentions
+  - Negative: 8 mentions
+- Combined: Tata Motors has a significant "Neutral" sentiment category across both datasets, indicating the need for more detailed consumer feedback analysis. Positive sentiments are also present, but negative sentiments are less prevalent in the non-Twitter data.
+
+**Attributes Analysis:**
+- Twitter Data: 
+  - Accessories: -0.17 (Slightly negative)
+  - Cost: -0.09 (Slightly negative)
+  - EV (Electric Vehicle): -0.21 (Negative)
+  - Other: -0.03 (Slightly negative)
+  - Performance: -1.0 (Very negative)
+  - Safety: -0.16 (Slightly negative)
+- Non-Twitter Data: 
+  - Accessories: 0.615385 (Positive)
+  - Cost: 0.72 (Highly positive)
+  - EV (Electric Vehicle): 0.282828 (Moderately positive)
+  - Fuel Efficiency: 0.666667 (Highly positive)
+  - Other: 0.430622 (Positive)
+  - Performance: 0 (Neutral)
+  - Safety: 0.5 (Positive)
+- Combined: Tata Motors shows mixed sentiment for attributes. "Cost" and "Fuel Efficiency" receive highly positive sentiments in non-Twitter data, while "Performance" and "Safety" have room for improvement. "EV" has a more negative sentiment in Twitter data.
+
+**Hyundai:**
+
+**Average Sentiment Score:**
+- Twitter Data: -0.21 (Slightly negative)
+- Non-Twitter Data: 0.26 (Slightly positive)
+- Combined: Hyundai also exhibits mixed sentiment, with Twitter data showing a slightly negative sentiment and non-Twitter data showing a slightly positive sentiment.
+
+**Average Reach:**
+- Twitter Data: 83,899.29 (Significantly higher than Tata)
+- Non-Twitter Data: 5,640,402.25 (Substantial)
+- Combined: Hyundai has a broader reach compared to Tata, indicating more conversation and engagement.
+
+**Sentiment Category Counts:**
+- Twitter Data: 
+  - Neutral: 75 mentions
+  - Negative: 64 mentions
+  - Positive: 29 mentions
+- Non-Twitter Data: 
+  - Positive: 143 mentions
+  - Neutral: 121 mentions
+  - Negative: 58 mentions
+- Combined: Hyundai's sentiment categories show a mix of neutral and positive sentiments across both datasets, with some negative sentiment in Twitter data.
+
+**Attributes Analysis:**
+- Twitter Data: 
+  - Accessories: 0 (Neutral)
+  - Cost: 0 (Neutral)
+  - EV (Electric Vehicle): -0.14 (Slightly negative)
+  - Other: -0.24 (Slightly negative)
+  - Performance: 0.666667 (Moderately positive)
+  - Safety: 0 (Neutral)
+- Non-Twitter Data: 
+  - Accessories: 0.75 (Highly positive)
+  - Cost: 1.0 (Highly positive)
+  - EV (Electric Vehicle): 0.127660 (Moderately positive)
+  - Fuel Efficiency: 1.0 (Highly positive)
+  - Other: 0.219828 (Moderately positive)
+  - Performance: 0.666667 (Moderately positive)
+  - Safety: 0 (Neutral)
+- Combined: Hyundai, like Tata, shows mixed sentiment for attributes. Both brands have highly positive sentiments for "Cost," "Fuel Efficiency," and "Accessories." "EV" and "Safety" have room for improvement in addressing consumer concerns.
